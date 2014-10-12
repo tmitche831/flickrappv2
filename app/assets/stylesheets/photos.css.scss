@@ -1,0 +1,44 @@
+// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+	text-align: center;
+	font-family: 'IM Fell English SC', serif;
+	font-size: 3em;
+}
+
+#container {
+	margin-left: 28px;
+}
+
+#photo_container {
+	margin: auto;
+	margin-top: 5px;
+	max-width: 65%;
+	display: inline-block;
+	background-color: black;
+	border: solid grey 4px;
+	padding: 1em;
+}
+
+.photo {
+	width: 250px;
+	height: 150px;
+	padding: 1em;
+	margin: auto;
+	background-color: white;
+}
+
+#page_controls {
+	margin: auto;
+	margin-top: 5px;
+	width: 300px;
+	text-align: center;
+	padding: 1em;
+	border-radius: 1.5em;
+	background-color: black;
+	color: white;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 1.5em;
+}
